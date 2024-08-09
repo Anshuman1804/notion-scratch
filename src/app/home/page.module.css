@@ -1,0 +1,24 @@
+/* src/app/page.module.css */
+
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .mainContent {
+    flex: 1; /* Take up the remaining space */
+    padding: 20px; /* Padding around content */
+    background-color: #f9f9f9; /* Light background color for content */
+    overflow-y: auto; /* Scroll if content overflows */
+  }
+  
+  /* Define local class for headings */
+  .heading {
+    color: #333; /* Dark color for headings */
+  }
+  
+  /* Define local class for paragraphs */
+  .paragraph {
+    color: #666; /* Medium gray for paragraphs */
+  }
+  
